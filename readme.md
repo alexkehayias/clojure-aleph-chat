@@ -4,4 +4,4 @@ Demonstration of a non-blocking, async server using Clojure, Aleph, and Compojur
     lein deps
     lein run
 
-Go to http://localhost:8080/chat/room1, open another window with the same url and start talking to yourself!
+Go to http://localhost:8080/chat/foo, open another window with the same url and start talking to yourself!
