@@ -6,8 +6,7 @@
         (ring.middleware resource file-info)
         core.views
         core.templates)
-  (:require [compojure.route :as route])
-  (:gen-class))
+  (:require [compojure.route :as route]))
 
 (defn sync-app [request]
   "Rendered response of the chat page"

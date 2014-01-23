@@ -6,7 +6,6 @@
                  [ring "1.1.0-beta2"]
                  [hiccup "1.0.0-beta1"]
                  [lein-swank "1.4.4"]]
-  :source-path "src/clj"
-  :aot [core.main]
+  :source-paths ["src/clj"]
   :ring {:handler core.main/-main}
   :main core.main)
